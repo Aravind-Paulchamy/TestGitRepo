@@ -9,16 +9,24 @@ namespace First_c_sharp_code
     {
         static void Main(string[] args)
         {
-            string name; 
+            string Firstname; 
+
+	    string Lastname; 
  
            
-            Console.WriteLine("Please Enter Your Name");
+            Console.WriteLine("Please Enter Your FirstName");
  
            
-            name = Console.ReadLine();
- 
+            Firstname= Console.ReadLine();
+
+
+	    Console.WriteLine("Please Enter Your FirstName");
+
+
+            Lastname= Console.ReadLine();
+  
             
-            Console.WriteLine("Welcome {0}", name);
+            Console.WriteLine("Welcome {0} {1}", FirstName,Lastname);
  
            
             Console.ReadLine();
